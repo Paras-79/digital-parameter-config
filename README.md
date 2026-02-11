@@ -7,10 +7,6 @@ This small PlatformIO/Arduino project shows how to drive a 128x64 SSD1306 I2C OL
 - IDE: CLion
 - Notes: Project is a PlatformIO-style embedded project; CLion is used as the editor/IDE and can build/upload when PlatformIO or Arduino tooling is configured.
 
-## IDE version (assumption)
-- Assumed CLion version used while creating this README: 2025.3.2
-- If your installed CLion version differs, update this field. (I made a reasonable assumption because CLion is the stated IDE; replace with your exact version if you want this README to be precise.)
-
 ## Code explanation
 - Entry point: `src/main.cpp`.
 - Behavior:
@@ -57,7 +53,6 @@ Note: On Arduino Uno R4 (and many Arduinos) the I2C pins are on the dedicated SD
 
 ## Author
 - Author: Paras-79
-- Update this entry if you prefer a different name, email, or GitHub handle.
 
 ## Software requirements
 - CLion (any recent release; assumed 2025.3.2 for this README)
@@ -87,11 +82,4 @@ PlatformIO quick commands (examples):
 ## Extending this project
 - Add dynamic content (sensor readings, time, menus) by writing to the display inside `loop()` and calling `display.display()` after updating the buffer.
 - Add an I2C scan utility or configuration UI to detect OLED address at runtime.
-
----
-
-If you'd like, I can:
-- Update the CLion version to your exact installed version (tell me which one),
-- Add PlatformIO `platformio.ini` example for Arduino Uno R4, or
-- Expand the README to include pictures/wiring diagrams.
 
